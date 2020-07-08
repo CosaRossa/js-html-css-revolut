@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.header-top {
+  padding: 0 50px;
+  background-color: rgb(243, 244, 245);
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top a {
+  color: #888;
+  margin: 0 15px;
+}
+
+.header-top a strong {
+  color: #222;
+}
+
+.header-top a:hover {
+  color: #222;
+}
+
+.header-nav {
+  padding: 0 50px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav a {
+  color: #888;
+}
+
+.header-nav a:hover {
+  color: #222;
+}
+
+.header-nav .logo img {
+  width: 104px;
+  height: 24px;
+}
+
+.header-nav ul,
+.header-nav .logo {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.header-nav li {
+  float: left;
+  list-style: none;
+  margin: 0 15px;
+}
+
+.header-nav .nav-right button {
+  padding: 15px 20px;;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 0 15px;
+  box-shadow: 0;
+  transition: all 0.1s;
+}
+
+.header-nav .nav-right button a {
+  color: #fff;
+}
+
+.header-nav .nav-right button:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+.jumbo {
+  display: flex;
+  padding: 0 50px;
+}
+
+.jumbo .text {
+  width: 40%;
+  margin: 120px 25px;
+}
+
+.jumbo .text h1 {
+  color: rgb(25, 28, 31);
+  font-size: 73px;
+  margin-bottom: 25px;
+}
+
+.jumbo .text p {
+  color: rgb(139, 149, 158);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.9rem;
+}
+
+.jumbo .text .form {
+  margin: 20px 0;
+}
+
+.jumbo .text .border-bottom-only {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+  margin: 30px 15px 30px 0;
+}
+
+.jumbo .text select {
+  width: 80px;
+}
+
+.jumbo .text input {
+  width: 160px;
+  height: 21px;
+}
+
+.jumbo .text input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: #999;
+}
+
+.jumbo .text button {
+  background-color: rgb(50, 56, 62);
+  font-size: 17px;
+  color: rgb(150, 168, 186);
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: not-allowed;
+}
+
+.jumbo .text .apri-conto i {
+  margin-right: 10px;
+}
+
+.jumbo .video-img {
+  margin: 40px 25px;
+  width: 65%;
+  position: relative;
+}
+
+.jumbo .video-img img {
+  width: 63%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.jumbo .video-img .play {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.jumbo .video-img .play i {
+  font-size: 25px;
+  padding: 30px;
+}
